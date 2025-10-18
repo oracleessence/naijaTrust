@@ -1,0 +1,5 @@
+{
+  "name": "NaijaTrust",
+  "description": "A Nigerian customer review platform that verifies reviews through phone numbers or order IDs and helps businesses manage feedback.",
+  "requestFramePermissions": []
+}
