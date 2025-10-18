@@ -25,10 +25,10 @@ const CareersPage: React.FC = () => {
     <div className="bg-white rounded-lg shadow-lg p-8 md:p-12">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl font-extrabold text-gray-900 text-center mb-4">
-          Join Our Team at Naija<span className="text-green-600">Trust</span>
+          Join Our Team at afri<span className="text-green-600">TRUST</span>
         </h1>
         <p className="text-lg text-gray-600 text-center mb-10">
-          Help us build the future of trusted commerce in Nigeria. We're looking for passionate, innovative people to join our mission.
+          Help us build the future of trusted commerce in Africa. We're looking for passionate, innovative people to join our mission.
         </p>
 
         <img 
@@ -41,9 +41,9 @@ const CareersPage: React.FC = () => {
 
         <div className="space-y-6">
           <JobOpening title="Senior Frontend Engineer" location="Lagos (Remote-friendly)" type="Full-time" />
-          <JobOpening title="Lead Product Manager" location="Abuja" type="Full-time" />
-          <JobOpening title="Business Development Associate" location="Port Harcourt" type="Contract" />
-          <JobOpening title="Digital Marketing Specialist" location="Lagos" type="Full-time" />
+          <JobOpening title="Lead Product Manager" location="Nairobi" type="Full-time" />
+          <JobOpening title="Business Development Associate" location="Johannesburg" type="Contract" />
+          <JobOpening title="Digital Marketing Specialist" location="Accra" type="Full-time" />
         </div>
 
         <div className="mt-12 bg-gray-50 p-8 rounded-lg text-center">
@@ -51,7 +51,7 @@ const CareersPage: React.FC = () => {
             <p className="text-gray-600 mt-2">
                 We're always on the lookout for exceptional talent. If you're passionate about what we do, send your resume to us.
             </p>
-            <a href="mailto:careers@naijatrust.com" className="mt-4 inline-block bg-white border border-green-600 text-green-600 px-6 py-2 rounded-lg font-semibold hover:bg-green-50 transition-colors duration-200">
+            <a href="mailto:careers@afritrust.com" className="mt-4 inline-block bg-white border border-green-600 text-green-600 px-6 py-2 rounded-lg font-semibold hover:bg-green-50 transition-colors duration-200">
                 Contact Us
             </a>
         </div>

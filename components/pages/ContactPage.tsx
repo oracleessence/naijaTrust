@@ -23,7 +23,7 @@ const ContactPage: React.FC = () => {
                         <Icon name="email" className="w-6 h-6 mr-4 mt-1 flex-shrink-0" />
                         <div>
                             <h3 className="font-bold">Email Us</h3>
-                            <a href="mailto:support@naijatrust.com" className="text-green-200 hover:text-white">support@naijatrust.com</a>
+                            <a href="mailto:support@afritrust.com" className="text-green-200 hover:text-white">support@afritrust.com</a>
                         </div>
                     </div>
                     <div className="flex items-start">

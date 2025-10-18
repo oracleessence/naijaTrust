@@ -21,7 +21,7 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="font-bold text-lg mb-2">NaijaTrust</h3>
+            <h3 className="font-bold text-lg mb-2">afriTRUST</h3>
             <p className="text-gray-400 text-sm">Verified reviews you can trust.</p>
           </div>
           <div>
@@ -49,7 +49,7 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           </div>
         </div>
         <div className="mt-8 border-t border-gray-700 pt-6 text-center text-gray-500 text-sm">
-          <p>&copy; {new Date().getFullYear()} NaijaTrust. All rights reserved. Made with 💚 in Nigeria.</p>
+          <p>&copy; {new Date().getFullYear()} afriTRUST. All rights reserved. Made with 💚 in Africa.</p>
         </div>
       </div>
     </footer>

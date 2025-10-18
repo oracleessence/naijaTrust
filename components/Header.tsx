@@ -24,7 +24,7 @@ const Header: React.FC<HeaderProps> = ({ user, onLogoClick, onLoginClick, onSign
               <Icon name="shieldCheck" className="w-8 h-8" />
             </div>
             <h1 className="text-2xl font-bold text-gray-800">
-              Naija<span className="text-green-600">Trust</span>
+              afri<span className="text-green-600">TRUST</span>
             </h1>
           </div>
           <div className="flex items-center space-x-4">

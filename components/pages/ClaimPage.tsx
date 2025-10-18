@@ -55,7 +55,7 @@ const ClaimPage: React.FC<ClaimPageProps> = ({ businesses, onClaimRequest }) => 
           Take Control of Your Business Profile
         </h1>
         <p className="text-lg text-gray-600 text-center mb-12">
-          Claiming your business on NaijaTrust is the first step towards managing your online reputation, engaging with customers, and unlocking growth.
+          Claiming your business on afriTRUST is the first step towards managing your online reputation, engaging with customers, and unlocking growth.
         </p>
         
         <div className="mt-12 text-center">

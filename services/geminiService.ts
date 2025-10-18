@@ -12,19 +12,19 @@ const ai = new GoogleGenAI({ apiKey: process.env.API_KEY as string });
 
 export const generateMockData = async (): Promise<MockData> => {
   const prompt = `
-    Generate a realistic dataset for a Nigerian customer review platform called "NaijaTrust".
+    Generate a realistic dataset for an African customer review platform called "afriTRUST".
     The data should include 5 users, 10 businesses, 30 reviews, and 7 replies.
-    - Users should have Nigerian-sounding names and random-looking phone numbers and emails. Each user must have a 'name' field.
+    - Users should have African-sounding names and random-looking phone numbers and emails. Each user must have a 'name' field.
     - IMPORTANT: Ensure the second user in the array has the role 'business_owner'. All other users should have the role 'customer'.
-    - Businesses should be in various Nigerian cities (Lagos, Abuja, Port Harcourt, Ibadan, Kano).
+    - Businesses should be in various African cities (e.g., Lagos, Nairobi, Johannesburg, Accra, Cairo).
     - Business categories should be diverse (e.g., Restaurant, Fashion Designer, Tech Hub, Boutique Hotel, E-commerce Store, Spa).
-    - Business names should sound authentically Nigerian.
+    - Business names should sound authentically African.
     - IMPORTANT: Assign 5 of the 10 businesses an 'owner_id' that links them to the business owner user. The other 5 businesses should have a null 'owner_id' to represent unclaimed businesses.
     - All businesses should have a 'logo_url' from picsum.photos and a short 'bio'.
-    - Reviews should have Nigerian-sounding customer names.
+    - Reviews should have African-sounding customer names.
     - Each review must be linked to a business via 'business_id' and a user via 'user_id'.
     - Ensure ratings are between 1 and 5.
-    - Comments should reflect a mix of positive, negative, and neutral experiences, written in a natural, conversational tone, some with Nigerian slang or pidgin.
+    - Comments should reflect a mix of positive, negative, and neutral experiences, written in a natural, conversational tone, some with African slang or pidgin.
     - Replies should be a separate list. Each reply must be linked to a review via 'review_id' and a business via 'business_id'. The reply should be professional and relevant to the review.
     - Return the data strictly in the JSON format specified by the schema.
   `;
@@ -127,7 +127,7 @@ export const generateReviewSummary = async (reviews: Review[]): Promise<string> 
   }
   const reviewComments = reviews.map(r => `- ${r.comment} (${r.rating}/5)`).join('\n');
   const prompt = `
-    You are an AI assistant for NaijaTrust, a Nigerian review platform.
+    You are an AI assistant for afriTRUST, an African review platform.
     Analyze the following customer reviews for a business and provide a concise, balanced summary in about 3-4 sentences.
     Highlight the main positive points and common criticisms.
     The tone should be helpful and neutral.
@@ -151,7 +151,7 @@ export const generateReviewSummary = async (reviews: Review[]): Promise<string> 
 
 export const moderateReviewContent = async (comment: string, rating: number): Promise<{ score: number; reason: string }> => {
   const prompt = `
-    You are a highly-trained content moderation AI for NaijaTrust, a Nigerian review platform. Your task is to analyze a customer review and provide a moderation score from 0 to 100.
+    You are a highly-trained content moderation AI for afriTRUST, an African review platform. Your task is to analyze a customer review and provide a moderation score from 0 to 100.
 
     Consider the following factors:
     - Spam/Gibberish: Is the review nonsensical, repetitive, or clearly spam? A very low score (0-20).

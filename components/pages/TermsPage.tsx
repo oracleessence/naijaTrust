@@ -9,7 +9,7 @@ const TermsPage: React.FC = () => {
           <p><strong>Last updated:</strong> {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
           
           <p>
-            Welcome to NaijaTrust! These Terms of Service ("Terms") govern your use of the NaijaTrust website and services (collectively, the "Service"), operated by NaijaTrust Ltd. ("us", "we", or "our").
+            Welcome to afriTRUST! These Terms of Service ("Terms") govern your use of the afriTRUST website and services (collectively, the "Service"), operated by afriTRUST Ltd. ("us", "we", or "our").
           </p>
 
           <h2 className="font-bold text-2xl text-gray-800 pt-4">1. Acceptance of Terms</h2>
@@ -29,7 +29,7 @@ const TermsPage: React.FC = () => {
 
           <h2 className="font-bold text-2xl text-gray-800 pt-4">4. Prohibited Uses</h2>
           <p>
-            You agree not to use the service for any unlawful purpose or any purpose prohibited under this clause. You agree not to use the Service in any way that could damage the Service, the services, or the general business of NaijaTrust Ltd.
+            You agree not to use the service for any unlawful purpose or any purpose prohibited under this clause. You agree not to use the Service in any way that could damage the Service, the services, or the general business of afriTRUST Ltd.
           </p>
           
           <h2 className="font-bold text-2xl text-gray-800 pt-4">5. Termination</h2>
@@ -39,7 +39,7 @@ const TermsPage: React.FC = () => {
           
           <h2 className="font-bold text-2xl text-gray-800 pt-4">6. Governing Law</h2>
           <p>
-            These Terms shall be governed and construed in accordance with the laws of the Federal Republic of Nigeria, without regard to its conflict of law provisions.
+            These Terms shall be governed and construed in accordance with the laws of our operating jurisdiction, without regard to its conflict of law provisions.
           </p>
 
           <h2 className="font-bold text-2xl text-gray-800 pt-4">7. Changes to Terms</h2>
@@ -49,7 +49,7 @@ const TermsPage: React.FC = () => {
 
           <h2 className="font-bold text-2xl text-gray-800 pt-4">8. Contact Us</h2>
           <p>
-            If you have any questions about these Terms, please contact us at <a href="mailto:legal@naijatrust.com" className="text-green-600 hover:underline">legal@naijatrust.com</a>.
+            If you have any questions about these Terms, please contact us at <a href="mailto:legal@afritrust.com" className="text-green-600 hover:underline">legal@afritrust.com</a>.
           </p>
         </div>
       </div>

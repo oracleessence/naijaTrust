@@ -37,7 +37,7 @@ const PricingPage: React.FC = () => {
                 Plans for Every Business
             </h1>
             <p className="text-lg text-gray-600 text-center mb-12 max-w-2xl mx-auto">
-                Join NaijaTrust to build your online reputation, connect with customers, and grow your business. Choose the plan that's right for you.
+                Join afriTRUST to build your online reputation, connect with customers, and grow your business. Choose the plan that's right for you.
             </p>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
@@ -54,7 +54,7 @@ const PricingPage: React.FC = () => {
                 />
                 <PricingCard
                     plan="Verified"
-                    price="₦10,000"
+                    price="$25"
                     description="Unlock powerful tools to build trust and actively manage your reputation."
                     features={[
                         "Everything in Basic, plus:",

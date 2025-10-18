@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import type { Business, Review } from '../../types';
 import BusinessCard from '../BusinessCard';
@@ -32,10 +31,10 @@ const HomePage: React.FC<HomePageProps> = ({ businesses, reviews, onSelectBusine
       {/* Hero Section */}
       <section className="text-center py-16 bg-white rounded-lg shadow-md mb-12">
         <h1 className="text-4xl md:text-5xl font-extrabold text-gray-800">
-          Find Nigerian Businesses You Can <span className="text-green-600">Trust</span>
+          Find African Businesses You Can <span className="text-green-600">Trust</span>
         </h1>
         <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-          Read and write verified customer reviews for businesses across Nigeria.
+          Read and write verified customer reviews for businesses across Africa.
         </p>
         <div className="mt-8 max-w-xl mx-auto relative">
           <input

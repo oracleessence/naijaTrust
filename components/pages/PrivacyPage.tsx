@@ -9,7 +9,7 @@ const PrivacyPage: React.FC = () => {
             <p><strong>Last updated:</strong> {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
 
             <p>
-                NaijaTrust Ltd. ("us", "we", or "our") operates the NaijaTrust website (the "Service"). This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data. This is a demo application, and this policy is for illustrative purposes only.
+                afriTRUST Ltd. ("us", "we", or "our") operates the afriTRUST website (the "Service"). This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data. This is a demo application, and this policy is for illustrative purposes only.
             </p>
 
             <h2 className="font-bold text-2xl text-gray-800 pt-4">1. Information Collection and Use</h2>
@@ -24,7 +24,7 @@ const PrivacyPage: React.FC = () => {
 
             <h2 className="font-bold text-2xl text-gray-800 pt-4">2. Use of Data</h2>
             <p>
-                NaijaTrust Ltd. uses the collected data for various purposes:
+                afriTRUST Ltd. uses the collected data for various purposes:
             </p>
             <ul>
                 <li>To provide and maintain the Service</li>
@@ -42,7 +42,7 @@ const PrivacyPage: React.FC = () => {
 
             <h2 className="font-bold text-2xl text-gray-800 pt-4">4. Your Data Protection Rights</h2>
             <p>
-                You have certain data protection rights. NaijaTrust Ltd. aims to take reasonable steps to allow you to correct, amend, delete, or limit the use of your Personal Data.
+                You have certain data protection rights. afriTRUST Ltd. aims to take reasonable steps to allow you to correct, amend, delete, or limit the use of your Personal Data.
             </p>
             
             <h2 className="font-bold text-2xl text-gray-800 pt-4">5. Changes to This Privacy Policy</h2>
@@ -52,7 +52,7 @@ const PrivacyPage: React.FC = () => {
 
             <h2 className="font-bold text-2xl text-gray-800 pt-4">6. Contact Us</h2>
             <p>
-                If you have any questions about this Privacy Policy, please contact us at <a href="mailto:privacy@naijatrust.com" className="text-green-600 hover:underline">privacy@naijatrust.com</a>.
+                If you have any questions about this Privacy Policy, please contact us at <a href="mailto:privacy@afritrust.com" className="text-green-600 hover:underline">privacy@afritrust.com</a>.
             </p>
         </div>
       </div>
